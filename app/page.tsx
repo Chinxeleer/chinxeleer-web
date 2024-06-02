@@ -1,14 +1,17 @@
 import Hero from "@/components/Hero";
-import Nav from "@/components/Nav";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export default function Home() {
   return (
-    <main className="relative flex flex-col mt-6 px-2 md:p-0">
-      <div>
-        <Nav />
-        <Hero />
-        <h1>Blessing</h1>
+    <main className="flex flex-col  justify-between items-center w-full">
+      <div className="flex flex-col min-w-[50px]   gap-2">
+        <Avatar className="h-20 w-20">
+          <AvatarImage src={`profile.jpg`} alt="BK" />
+          <AvatarFallback>CN</AvatarFallback>
+        </Avatar>
+        <h2 className="text-center font-bold">Student</h2>
       </div>
+      <Hero />
     </main>
   );
 }
