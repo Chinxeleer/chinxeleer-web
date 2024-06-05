@@ -11,8 +11,8 @@ const Nav = () => {
   ];
   return (
     <nav className="fixed top-0  z-10 w-full flex justify-center">
-      <div className="absolute top-0 left-0 right-0 bottom-0 bg-gray-400 blur-3xl z-10"></div>
-      <ul className="relative flex xl:gap-2 top-0 z-20 bg-slate-100 md:gap-2 px-2 rounded-full md:mt-2 shadow-xl">
+      <div className="absolute top-0 left-0 right-0 bg-slate-100 bottom-0 blur-md z-10"></div>
+      <ul className="relative flex xl:gap-2 top-0 z-20 bg-slate-100 border border-slate-200 md:gap-2 px-2 rounded-full md:mt-2">
         {pageLinks.map((item, index) => {
           return (
             <li
