@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const PostList = () => {
@@ -72,16 +74,28 @@ const PostList = () => {
   ];
   return (
     <section className="w-full">
-      <div className="flex-1 flex flex-col overflow-auto min-w-full">
+      {posts.length === 0 && (
+        <div className="mt-20 flex flex-col items-center  ">
+          <Image
+            src={`/noposts.svg`}
+            height={200}
+            width={200}
+            alt="No Posts"
+          ></Image>
+          <h1 className="mt-2 text-3xl font-extrabold">No Posts Yet</h1>
+        </div>
+      )}
+      <div className="flex-1 flex flex-col divide-slate-500 divide-y gap-2 overflow-auto min-w-full">
         {posts.map((post, index) => (
-          <div
-            key={index}
-            className="border-2 hover:bg-slate-300 w-[600px] rounded-lg px-4 py-2 mt-4"
-          >
-            <h1 className="font-bold ">Title: {post.title}</h1>
-            <p className="text-md">{post.body}</p>
-            <small className="font-bold">{post.id}</small>
-          </div>
+          <Link href={`posts/${post.id}`} key={index}>
+            <div className="w-[600px] px-4 py-2 mt-4">
+              <h1 className="font-medium ">
+                Title: <span className="font-bold text-wrap">{post.title}</span>
+              </h1>
+              <p className="text-md p-2">{post.body}</p>
+              <small className="font-bold">{post.id}</small>
+            </div>
+          </Link>
         ))}
       </div>
     </section>

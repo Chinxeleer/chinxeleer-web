@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="z-20">
         <h1 className="z-20 text-sm font-extrabold p-2">
           <a
-            href="#"
+            href="https://github.com/Chinxeleer"
             className="flex justify-center hover:text-slate-700 items-center transition-all"
           >
             <ArrowIcon />
