@@ -17,7 +17,7 @@ const Nav = () => {
           return (
             <li
               key={index}
-              className="rounded-lg font-extrabold hover:underline underline-offset-8 decoration-2 xl:px-4 xl:py-2 px-2 py-2"
+              className="rounded-lg font-extrabold text-slate-800 hover:underline decoration-gray-500  underline-offset-8 decoration-2 xl:px-4 xl:py-2 px-2 py-2"
             >
               <Link href={item.link}>{item.text}</Link>
             </li>
