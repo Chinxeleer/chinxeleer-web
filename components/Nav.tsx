@@ -5,7 +5,6 @@ const Nav = () => {
   const pageLinks = [
     { link: "/", text: "Home" },
     { link: "/about", text: "About" },
-    { link: "/resume", text: "Resume" },
     { link: "/projects", text: "Projects" },
     { link: "/posts", text: "Posts" },
   ];
