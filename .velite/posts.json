@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "blog/hello-world",
+    "title": "New born here",
+    "description": "This is the first blog post",
+    "date": "2024-06-11T00:00:00.000Z",
+    "published": true,
+    "body": "const{Fragment:e,jsx:n,jsxs:o}=arguments[0];function _createMdxContent(l){const t={a:\"a\",h1:\"h1\",li:\"li\",ul:\"ul\",...l.components};return o(e,{children:[n(t.h1,{id:\"hello-blessing-welcome-to-my-vlog\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-blessing-welcome-to-my-vlog\",children:\"Hello Blessing Welcome to my vlog\"})}),\"\\n\",o(t.ul,{children:[\"\\n\",n(t.li,{children:\"Welcome everyone to our new blog post ever in production. I'm so happy about this.\"}),\"\\n\"]})]})}return{default:function(e={}){const{wrapper:o}=e.components||{};return o?n(o,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "slugAsParams": "hello-world"
+  },
+  {
+    "slug": "blog/xerox",
+    "title": "New born 2",
+    "description": "This is the first blog post",
+    "date": "2024-06-15T00:00:00.000Z",
+    "published": true,
+    "body": "const{Fragment:e,jsx:n,jsxs:r}=arguments[0];function _createMdxContent(o){const t={a:\"a\",h1:\"h1\",p:\"p\",...o.components};return r(e,{children:[n(t.h1,{id:\"hello-world-from-2\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-world-from-2\",children:\"Hello world from 2\"})}),\"\\n\",n(t.p,{children:\"Hi peeps good to be here\"})]})}return{default:function(e={}){const{wrapper:r}=e.components||{};return r?n(r,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "slugAsParams": "xerox"
+  },
+  {
+    "slug": "blog/xerox3",
+    "title": "New born 3",
+    "description": "This is the first blog post",
+    "date": "2024-06-15T00:00:00.000Z",
+    "published": true,
+    "body": "const{Fragment:e,jsx:n,jsxs:r}=arguments[0];function _createMdxContent(o){const t={a:\"a\",h1:\"h1\",p:\"p\",...o.components};return r(e,{children:[n(t.h1,{id:\"hello-world-from-3\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-world-from-3\",children:\"Hello world from 3\"})}),\"\\n\",n(t.p,{children:\"Hi peeps good to be here\"})]})}return{default:function(e={}){const{wrapper:r}=e.components||{};return r?n(r,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "slugAsParams": "xerox3"
+  },
+  {
+    "slug": "blog/xerox4",
+    "title": "New born 4",
+    "description": "This is the first blog post",
+    "date": "2024-06-15T00:00:00.000Z",
+    "published": true,
+    "body": "const{Fragment:e,jsx:n,jsxs:r}=arguments[0];function _createMdxContent(o){const t={a:\"a\",h1:\"h1\",p:\"p\",...o.components};return r(e,{children:[n(t.h1,{id:\"hello-world-from-4\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-world-from-4\",children:\"Hello world from 4\"})}),\"\\n\",n(t.p,{children:\"Hi peeps good to be here\"})]})}return{default:function(e={}){const{wrapper:r}=e.components||{};return r?n(r,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "slugAsParams": "xerox4"
+  },
+  {
+    "slug": "blog/xerox5",
+    "title": "New born 5",
+    "description": "This is the first blog post",
+    "date": "2024-06-15T00:00:00.000Z",
+    "published": true,
+    "body": "const{Fragment:e,jsx:n,jsxs:r}=arguments[0];function _createMdxContent(o){const t={a:\"a\",h1:\"h1\",p:\"p\",...o.components};return r(e,{children:[n(t.h1,{id:\"hello-world-from-5\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-world-from-5\",children:\"Hello world from 5\"})}),\"\\n\",n(t.p,{children:\"Hi peeps good to be here\"})]})}return{default:function(e={}){const{wrapper:r}=e.components||{};return r?n(r,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "slugAsParams": "xerox5"
+  },
+  {
+    "slug": "blog/xerox6",
+    "title": "New born 6",
+    "description": "This is the first blog post",
+    "date": "2024-06-15T00:00:00.000Z",
+    "published": true,
+    "body": "const{Fragment:e,jsx:n,jsxs:r}=arguments[0];function _createMdxContent(o){const t={a:\"a\",h1:\"h1\",p:\"p\",...o.components};return r(e,{children:[n(t.h1,{id:\"hello-world-from-6\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-world-from-6\",children:\"Hello world from 6\"})}),\"\\n\",n(t.p,{children:\"Hi peeps good to be here\"})]})}return{default:function(e={}){const{wrapper:r}=e.components||{};return r?n(r,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "slugAsParams": "xerox6"
+  }
+]

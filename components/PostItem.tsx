@@ -12,7 +12,7 @@ interface Props {
 
 const PostItem = ({ slug, title, description, date }: Props) => {
   return (
-    <div>
+    <div className="mx-auto w-[600px] rounded-lg border border-slate-200 hover:border-slate-400">
       <Link href={slug}>
         <div className="w-[600px] px-4 py-2 mt-4">
           <h1 className="font-medium ">
