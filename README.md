@@ -1,3 +1,3 @@
-# Chinxeleer.io
+# Chinxeleer
 
-> My personal website.
+- created using Next.js with typescript.
