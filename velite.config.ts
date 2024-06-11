@@ -1,7 +1,7 @@
 import { defineConfig, defineCollection, s } from "velite";
 import rehypeSlug from "rehype-slug";
-import rehyePrettyCode from "rehyePrettyCode";
-import rehypeAutoLinkHeadings from "rehypeAutoLinkHeadings";
+import rehyePrettyCode from "rehype-pretty-code";
+import rehypeAutoLinkHeadings from "rehype-autolink-headings";
 
 const computedFields = <T extends { slug: string }>(data: T) => ({
   ...data,

@@ -1,7 +1,19 @@
-import Link from "next/link";
-import { posts } from "#site/content";
+import { Post } from "@/.velite";
 import PostItem from "./PostItem";
-const PostList = () => {
+
+interface PostsProp {
+  slug: string;
+  title: string;
+  date: string;
+  published: boolean;
+  body: string;
+  description?: string | undefined;
+  slugAsParams: string;
+}
+
+type PostsArray = PostsProp[];
+
+const PostList = (posts: Post[]) => {
   return (
     <section className="w-full">
       <div className="flex-1 flex flex-col divide-slate-500 divide-y gap-2 overflow-auto min-w-full">
