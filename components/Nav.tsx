@@ -6,7 +6,7 @@ const Nav = () => {
     { link: "/", text: "Home" },
     { link: "/about", text: "About" },
     { link: "/projects", text: "Projects" },
-    { link: "/posts", text: "Posts" },
+    { link: "/blog", text: "Blog" },
   ];
   return (
     <nav className="fixed top-0  z-10 w-full flex justify-center">
