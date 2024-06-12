@@ -12,20 +12,18 @@ interface Props {
 
 const PostItem = ({ slug, title, description, date }: Props) => {
   return (
-    <div className="mx-auto w-[600px] rounded-lg border border-slate-200 hover:border-slate-400">
-      <Link href={slug}>
-        <div className="w-[600px] px-4 py-2 mt-4">
-          <h1 className="font-medium ">
-            Title: <span className="font-bold text-wrap">{title}</span>
-          </h1>
-          <p className="text-md p-2">{description}</p>
-          <time className="font-bold" dateTime={date}>
-            {formateDate(date)}
-          </time>
-        </div>
-      </Link>
-    </div>
-  );
+		<div className="mx-auto w-[600px] rounded-lg border border-slate-200 hover:border-slate-400">
+			<Link href={slug}>
+				<div className="w-[600px] px-4 py-2 mt-4">
+					<h1 className="font-extrabold text-xl">{title}</h1>
+					<p className="text-md  text-slate-500 px-2">{description}</p>
+					<time className="text-slate-400 text-sm mt-2" dateTime={date}>
+						{formateDate(date)}
+					</time>
+				</div>
+			</Link>
+		</div>
+	);
 };
 
 export default PostItem;

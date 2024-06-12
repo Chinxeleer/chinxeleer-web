@@ -1,56 +1,11 @@
 [
   {
-    "slug": "blog/hello-world",
-    "title": "New born here",
-    "description": "This is the first blog post",
-    "date": "2024-06-11T00:00:00.000Z",
+    "slug": "blog/Adding_app_to_cmd",
+    "title": "Adding your terminal app to your PATH environment in Linux",
+    "description": "This is a guide to making your terminal app accessible from anywhere in your terminal directory by just calling a single identifier or name of the app in the terminal.",
+    "date": "2024-06-12T00:00:00.000Z",
     "published": true,
-    "body": "const{Fragment:e,jsx:n,jsxs:o}=arguments[0];function _createMdxContent(l){const t={a:\"a\",h1:\"h1\",li:\"li\",ul:\"ul\",...l.components};return o(e,{children:[n(t.h1,{id:\"hello-blessing-welcome-to-my-vlog\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-blessing-welcome-to-my-vlog\",children:\"Hello Blessing Welcome to my vlog\"})}),\"\\n\",o(t.ul,{children:[\"\\n\",n(t.li,{children:\"Welcome everyone to our new blog post ever in production. I'm so happy about this.\"}),\"\\n\"]})]})}return{default:function(e={}){const{wrapper:o}=e.components||{};return o?n(o,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
-    "slugAsParams": "hello-world"
-  },
-  {
-    "slug": "blog/xerox",
-    "title": "New born 2",
-    "description": "This is the first blog post",
-    "date": "2024-06-15T00:00:00.000Z",
-    "published": true,
-    "body": "const{Fragment:e,jsx:n,jsxs:r}=arguments[0];function _createMdxContent(o){const t={a:\"a\",h1:\"h1\",p:\"p\",...o.components};return r(e,{children:[n(t.h1,{id:\"hello-world-from-2\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-world-from-2\",children:\"Hello world from 2\"})}),\"\\n\",n(t.p,{children:\"Hi peeps good to be here\"})]})}return{default:function(e={}){const{wrapper:r}=e.components||{};return r?n(r,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
-    "slugAsParams": "xerox"
-  },
-  {
-    "slug": "blog/xerox3",
-    "title": "New born 3",
-    "description": "This is the first blog post",
-    "date": "2024-06-15T00:00:00.000Z",
-    "published": true,
-    "body": "const{Fragment:e,jsx:n,jsxs:r}=arguments[0];function _createMdxContent(o){const t={a:\"a\",h1:\"h1\",p:\"p\",...o.components};return r(e,{children:[n(t.h1,{id:\"hello-world-from-3\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-world-from-3\",children:\"Hello world from 3\"})}),\"\\n\",n(t.p,{children:\"Hi peeps good to be here\"})]})}return{default:function(e={}){const{wrapper:r}=e.components||{};return r?n(r,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
-    "slugAsParams": "xerox3"
-  },
-  {
-    "slug": "blog/xerox4",
-    "title": "New born 4",
-    "description": "This is the first blog post",
-    "date": "2024-06-15T00:00:00.000Z",
-    "published": true,
-    "body": "const{Fragment:e,jsx:n,jsxs:r}=arguments[0];function _createMdxContent(o){const t={a:\"a\",h1:\"h1\",p:\"p\",...o.components};return r(e,{children:[n(t.h1,{id:\"hello-world-from-4\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-world-from-4\",children:\"Hello world from 4\"})}),\"\\n\",n(t.p,{children:\"Hi peeps good to be here\"})]})}return{default:function(e={}){const{wrapper:r}=e.components||{};return r?n(r,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
-    "slugAsParams": "xerox4"
-  },
-  {
-    "slug": "blog/xerox5",
-    "title": "New born 5",
-    "description": "This is the first blog post",
-    "date": "2024-06-15T00:00:00.000Z",
-    "published": true,
-    "body": "const{Fragment:e,jsx:n,jsxs:r}=arguments[0];function _createMdxContent(o){const t={a:\"a\",h1:\"h1\",p:\"p\",...o.components};return r(e,{children:[n(t.h1,{id:\"hello-world-from-5\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-world-from-5\",children:\"Hello world from 5\"})}),\"\\n\",n(t.p,{children:\"Hi peeps good to be here\"})]})}return{default:function(e={}){const{wrapper:r}=e.components||{};return r?n(r,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
-    "slugAsParams": "xerox5"
-  },
-  {
-    "slug": "blog/xerox6",
-    "title": "New born 6",
-    "description": "This is the first blog post",
-    "date": "2024-06-15T00:00:00.000Z",
-    "published": true,
-    "body": "const{Fragment:e,jsx:n,jsxs:r}=arguments[0];function _createMdxContent(o){const t={a:\"a\",h1:\"h1\",p:\"p\",...o.components};return r(e,{children:[n(t.h1,{id:\"hello-world-from-6\",children:n(t.a,{className:\"subheading-anchor\",\"aria-label\":\"Link to section\",href:\"#hello-world-from-6\",children:\"Hello world from 6\"})}),\"\\n\",n(t.p,{children:\"Hi peeps good to be here\"})]})}return{default:function(e={}){const{wrapper:r}=e.components||{};return r?n(r,{...e,children:n(_createMdxContent,{...e})}):_createMdxContent(e)}};",
-    "slugAsParams": "xerox6"
+    "body": "const{Fragment:e,jsx:r,jsxs:n}=arguments[0];function _createMdxContent(a){const t={code:\"code\",figure:\"figure\",li:\"li\",ol:\"ol\",p:\"p\",pre:\"pre\",span:\"span\",strong:\"strong\",...a.components};return n(e,{children:[r(t.p,{children:\"To make your Rust command-line application accessible from anywhere on Linux, you need to ensure that its executable binary is available in a directory that's included in the system's PATH environment variable. Here's how you can achieve this:\"}),\"\\n\",n(t.ol,{children:[\"\\n\",n(t.li,{children:[\"\\n\",n(t.p,{children:[r(t.strong,{children:\"Build Your Rust Application:\"}),\"\\nMake sure you've built your Rust application and have the executable binary ready.\"]}),\"\\n\"]}),\"\\n\",n(t.li,{children:[\"\\n\",n(t.p,{children:[r(t.strong,{children:\"Choose a Directory:\"}),\"\\nDecide on a directory where you want to store your executable. Common choices are \",r(t.code,{children:\"/usr/local/bin\"}),\" or \",r(t.code,{children:\"~/bin\"}),\" (if you want to keep it in your home directory). The former is accessible system-wide, while the latter is user-specific.\"]}),\"\\n\"]}),\"\\n\",n(t.li,{children:[\"\\n\",n(t.p,{children:[r(t.strong,{children:\"Move the Executable:\"}),\"\\nMove your executable binary to the chosen directory. You might need superuser privileges (using \",r(t.code,{children:\"sudo\"}),\") to move it to system-wide directories like \",r(t.code,{children:\"/usr/local/bin\"}),\".\"]}),\"\\n\",r(t.figure,{\"data-rehype-pretty-code-figure\":\"\",children:r(t.pre,{style:{backgroundColor:\"#24292e\",color:\"#e1e4e8\"},tabIndex:\"0\",\"data-language\":\"bash\",\"data-theme\":\"github-dark\",children:r(t.code,{\"data-language\":\"bash\",\"data-theme\":\"github-dark\",style:{display:\"grid\"},children:n(t.span,{\"data-line\":\"\",children:[r(t.span,{style:{color:\"#B392F0\"},children:\"sudo\"}),r(t.span,{style:{color:\"#9ECBFF\"},children:\" mv\"}),r(t.span,{style:{color:\"#9ECBFF\"},children:\" /path/to/your/executable\"}),r(t.span,{style:{color:\"#9ECBFF\"},children:\" /usr/local/bin\"})]})})})}),\"\\n\",r(t.p,{children:\"Or, for a user-specific directory:\"}),\"\\n\",r(t.figure,{\"data-rehype-pretty-code-figure\":\"\",children:r(t.pre,{style:{backgroundColor:\"#24292e\",color:\"#e1e4e8\"},tabIndex:\"0\",\"data-language\":\"bash\",\"data-theme\":\"github-dark\",children:r(t.code,{\"data-language\":\"bash\",\"data-theme\":\"github-dark\",style:{display:\"grid\"},children:n(t.span,{\"data-line\":\"\",children:[r(t.span,{style:{color:\"#B392F0\"},children:\"mv\"}),r(t.span,{style:{color:\"#9ECBFF\"},children:\" /path/to/your/executable\"}),r(t.span,{style:{color:\"#9ECBFF\"},children:\" ~/bin\"})]})})})}),\"\\n\"]}),\"\\n\",n(t.li,{children:[\"\\n\",n(t.p,{children:[r(t.strong,{children:\"Add the Directory to PATH:\"}),\"\\nTo make your application executable from anywhere, you need to ensure that the chosen directory is included in your system's PATH. This is typically done by modifying your shell's configuration file (e.g., \",r(t.code,{children:\"~/.bashrc\"}),\" for Bash users or \",r(t.code,{children:\"~/.zshrc\"}),\" for Zsh users).\"]}),\"\\n\",r(t.p,{children:\"Open the appropriate configuration file in a text editor:\"}),\"\\n\",r(t.figure,{\"data-rehype-pretty-code-figure\":\"\",children:r(t.pre,{style:{backgroundColor:\"#24292e\",color:\"#e1e4e8\"},tabIndex:\"0\",\"data-language\":\"bash\",\"data-theme\":\"github-dark\",children:r(t.code,{\"data-language\":\"bash\",\"data-theme\":\"github-dark\",style:{display:\"grid\"},children:n(t.span,{\"data-line\":\"\",children:[r(t.span,{style:{color:\"#B392F0\"},children:\"nano\"}),r(t.span,{style:{color:\"#9ECBFF\"},children:\" ~/.bashrc\"})]})})})}),\"\\n\",n(t.p,{children:[\"Add the following line to the file, replacing \",r(t.code,{children:\"~/bin\"}),\" with the path to the directory you've chosen:\"]}),\"\\n\",r(t.figure,{\"data-rehype-pretty-code-figure\":\"\",children:r(t.pre,{style:{backgroundColor:\"#24292e\",color:\"#e1e4e8\"},tabIndex:\"0\",\"data-language\":\"bash\",\"data-theme\":\"github-dark\",children:r(t.code,{\"data-language\":\"bash\",\"data-theme\":\"github-dark\",style:{display:\"grid\"},children:n(t.span,{\"data-line\":\"\",children:[r(t.span,{style:{color:\"#F97583\"},children:\"export\"}),r(t.span,{style:{color:\"#E1E4E8\"},children:\" PATH\"}),r(t.span,{style:{color:\"#F97583\"},children:\"=\"}),r(t.span,{style:{color:\"#9ECBFF\"},children:'\"'}),r(t.span,{style:{color:\"#E1E4E8\"},children:\"$PATH\"}),r(t.span,{style:{color:\"#9ECBFF\"},children:':~/bin\"'})]})})})}),\"\\n\",r(t.p,{children:\"Save the file and exit the text editor.\"}),\"\\n\"]}),\"\\n\",n(t.li,{children:[\"\\n\",n(t.p,{children:[r(t.strong,{children:\"Reload the Shell:\"}),\"\\nTo apply the changes, either restart your terminal or run:\"]}),\"\\n\",r(t.figure,{\"data-rehype-pretty-code-figure\":\"\",children:r(t.pre,{style:{backgroundColor:\"#24292e\",color:\"#e1e4e8\"},tabIndex:\"0\",\"data-language\":\"bash\",\"data-theme\":\"github-dark\",children:r(t.code,{\"data-language\":\"bash\",\"data-theme\":\"github-dark\",style:{display:\"grid\"},children:n(t.span,{\"data-line\":\"\",children:[r(t.span,{style:{color:\"#79B8FF\"},children:\"source\"}),r(t.span,{style:{color:\"#9ECBFF\"},children:\" ~/.bashrc\"})]})})})}),\"\\n\",r(t.p,{children:\"This will reload the configuration and update your PATH.\"}),\"\\n\"]}),\"\\n\",n(t.li,{children:[\"\\n\",n(t.p,{children:[r(t.strong,{children:\"Test the Application:\"}),\"\\nYou should now be able to run your Rust application from anywhere in the terminal:\"]}),\"\\n\",r(t.figure,{\"data-rehype-pretty-code-figure\":\"\",children:r(t.pre,{style:{backgroundColor:\"#24292e\",color:\"#e1e4e8\"},tabIndex:\"0\",\"data-language\":\"bash\",\"data-theme\":\"github-dark\",children:r(t.code,{\"data-language\":\"bash\",\"data-theme\":\"github-dark\",style:{display:\"grid\"},children:r(t.span,{\"data-line\":\"\",children:r(t.span,{style:{color:\"#B392F0\"},children:\"your-app-name\"})})})})}),\"\\n\"]}),\"\\n\"]}),\"\\n\",r(t.p,{children:\"Your Rust command-line application should now be accessible from anywhere on Linux, allowing you to run it regardless of your current working directory.\"}),\"\\n\",n(t.p,{children:[\"Remember to replace placeholders like \",r(t.code,{children:\"your-app-name\"}),\" and \",r(t.code,{children:\"/path/to/your/executable\"}),\" with the actual names and paths relevant to your application.\"]})]})}return{default:function(e={}){const{wrapper:n}=e.components||{};return n?r(n,{...e,children:r(_createMdxContent,{...e})}):_createMdxContent(e)}};",
+    "slugAsParams": "Adding_app_to_cmd"
   }
 ]
