@@ -1,9 +1,18 @@
+"use client";
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const About = () => {
   return (
     <section>
-      <div className="w-[600px] font-medium">
+      <div className="text-slate-200 w-[600px] font-normal">
+        <div className="flex flex-col items-center gap-2">
+          <Avatar className="h-44 w-44">
+            <AvatarImage src={`profile.jpg`} alt="BK" />
+            <AvatarFallback>BK</AvatarFallback>
+          </Avatar>
+          <h2 className="text-center font-bold">Student</h2>
+        </div>
         <p>
           {" "}
           {"I'm"} a dedicated{" "}
@@ -21,7 +30,9 @@ const About = () => {
         </p>
       </div>
       <div className="flex justify-center mt-6">
-        <Button variant="outline" className="bg-slate-100 hover:bg-slate-50">Drop CV</Button>
+        <Button variant="outline" className="bg-slate-100 hover:bg-slate-50">
+          Drop CV
+        </Button>
       </div>
     </section>
   );

@@ -14,7 +14,7 @@ export default function BlogArticleLayout({
           <ArrowLeftIcon /> <p className="pl-4 text-sm">Back to Blog</p>
         </Link>
       </div>
-      <div className="z-10">{children}</div>
+      <div className="z-10 text-slate-200">{children}</div>
     </>
   );
 }

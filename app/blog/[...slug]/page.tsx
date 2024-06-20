@@ -1,6 +1,7 @@
 import { posts } from "#site/content";
 import { MDXContent } from "@/components/mdx-components";
 import { notFound } from "next/navigation";
+import { formateDate } from "@/lib/utils";
 import "@/styles/mdx.css";
 
 interface PostPageProps {
@@ -26,7 +27,10 @@ const PostPage = async ({ params }: PostPageProps) => {
   }
   return (
     <article className="container py-6 prose max-w-3xl mx-auto">
-      <h1 className="mb-2">{post.title}</h1>
+      <h1 className="mb-2 text-center">{post.title}</h1>
+      <time className="text-slate-400 text-sm mt-2" dateTime={post.date}>
+        {formateDate(post.date)}
+      </time>
       {/* {post.description ? (
         <p className="text-xl mt-0 text-muted-foreground">{post.description}</p>
       ) : null} */}

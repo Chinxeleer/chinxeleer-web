@@ -20,7 +20,7 @@ export default function Post({ searchParams }: BlogPageProps) {
 
   return (
     <section className="w-full relative flex flex-col items-center">
-      <h1 className="text-[32px] text-slate-800 text-center font-extrabold mb-10">Random Musings</h1>
+      <h1 className="text-[32px] text-slate-200 text-center font-extrabold mb-10">Random Musings</h1>
       <div className="flex-1 flex flex-col gap-2 overflow-auto min-w-full">
         {displayPosts.map((post) => {
           const { slug, title, description, date } = post;
