@@ -5,7 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 const About = () => {
   return (
     <section>
-      <div className="text-slate-200 w-[600px] font-normal">
+      <div className="text-orange-400 w-[600px] font-normal">
         <div className="flex flex-col items-center gap-2">
           <Avatar className="h-44 w-44">
             <AvatarImage src={`profile.jpg`} alt="BK" />
@@ -13,6 +13,7 @@ const About = () => {
           </Avatar>
           <h2 className="text-center font-bold">Student</h2>
         </div>
+        <p>Hey there Blessing here aka chinxeleer.</p>
         <p>
           {" "}
           {"I'm"} a dedicated{" "}
@@ -28,6 +29,7 @@ const About = () => {
           TypeScript, Python, and Dart. Additionally, I am currently expanding
           my skills by learning Next.js.{" "}
         </p>
+        <p></p>
       </div>
       <div className="flex justify-center mt-6">
         <Button variant="outline" className="bg-slate-100 hover:bg-slate-50">

@@ -20,8 +20,10 @@ export default function Post({ searchParams }: BlogPageProps) {
 
   return (
     <section className="w-full relative flex flex-col items-center">
-      <h1 className="text-[32px] text-slate-200 text-center font-extrabold mb-10">Random Musings</h1>
-      <div className="flex-1 flex flex-col gap-2 overflow-auto min-w-full">
+      <h1 className="text-[32px] text-slate-200 text-center font-extrabold mb-10">
+        Random Musings
+      </h1>
+      <div className="flex-1 flex flex-col gap-2 divide-y divide-dotted w-[600px] divide-slate-700 overflow-auto">
         {displayPosts.map((post) => {
           const { slug, title, description, date } = post;
           return (
@@ -37,7 +39,7 @@ export default function Post({ searchParams }: BlogPageProps) {
         })}
       </div>
       <div className="relative bottom-0">
-      <QueryPagination totalPages={totolPages} className="justify-end mt-4" />
+        <QueryPagination totalPages={totolPages} className="justify-end mt-4" />
       </div>
     </section>
   );

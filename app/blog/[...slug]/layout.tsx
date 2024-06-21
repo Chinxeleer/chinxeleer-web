@@ -9,12 +9,15 @@ export default function BlogArticleLayout({
 }) {
   return (
     <>
-      <div className="self-start">
-        <Link href="/blog" className="absolute flex justify-start items-center">
+      <div className="self-start text-slate-200">
+        <Link
+          href="/blog"
+          className="absolute flex justify-start items-center "
+        >
           <ArrowLeftIcon /> <p className="pl-4 text-sm">Back to Blog</p>
         </Link>
       </div>
-      <div className="z-10 text-slate-200">{children}</div>
+      <div className="z-10">{children}</div>
     </>
   );
 }
