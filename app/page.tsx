@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <section className="flex flex-col flex-1 justify-center text-slate-200 items-center w-full h-full">
       <h1
-        className={`${dancingScript.className} text-slate-200 font-bold xl:text-[100px] text-[50px]`}
+        className={`${dancingScript.className} text-slate-200 font-bold xl:text-[100px] text-[25px]`}
       >
         BLESSING KODZE
       </h1>
