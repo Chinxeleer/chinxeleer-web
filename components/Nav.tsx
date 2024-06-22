@@ -10,7 +10,9 @@ const Nav = () => {
     { link: "/blog", text: "Blog" },
   ];
   return (
-    <nav className={`${firaCode.className} fixed top-0  z-10 w-full flex justify-center`}>
+    <nav
+      className={`${firaCode.className} bg-slate-950 fixed top-0  z-20 w-full flex justify-center`}
+    >
       <ul className="relative flex xl:gap-2 top-0 z-20 bg-slate-950 md:gap-2 px-2  md:mt-2">
         {pageLinks.map((item, index) => {
           return (

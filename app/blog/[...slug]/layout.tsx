@@ -9,7 +9,7 @@ export default function BlogArticleLayout({
 }) {
   return (
     <>
-      <div className="self-start text-slate-200">
+      <div className="self-start z-20 ml-10 text-slate-200">
         <Link
           href="/blog"
           className="absolute flex justify-start items-center "
