@@ -26,7 +26,7 @@ const PostPage = async ({ params }: PostPageProps) => {
     notFound();
   }
   return (
-    <article className="container py-6 prose  prose-code:text-purple-400 prose-headings:text-orange-200 prose-p:text-orange-100  prose-strong:text-orange-500  prose-a:text-amber-300 max-w-[480px] xl:max-w-3xl prose-p:text-[15px] mx-auto">
+    <article className="container py-6 prose text-wrap prose-code:text-purple-400 prose-headings:text-orange-200 prose-p:text-orange-100  prose-strong:text-orange-500  prose-a:text-amber-300 max-w-[450px] xl:max-w-3xl prose-p:text-[12px] xl:prose-p:text-[16px] mx-auto">
       <h1 className="mb-2 text-center xl:text-3xl text-[25px]">{post.title}</h1>
       <time className="text-slate-400 text-sm mt-2" dateTime={post.date}>
         {formateDate(post.date)}
